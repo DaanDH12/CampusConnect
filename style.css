@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #351FB7;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    margin: 10px;
+  }
+  
+  .memory-game {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #laadscherm {
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #351FB7;
+  }
+
+  #laadscherm img {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+  }
+  
+  #laadscherm p {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .memory-card {
+    width: calc(12% - 0px);
+    height: 0;
+    padding-bottom: calc(12% - 0px);
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .memory-card:hover {
+    cursor: pointer;
+  }
+  
+  .memory-card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face, .back-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .tv-screen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 35%;
+        height: 35%;
+        transform: translate(-50%, -50%);
+      }
+
+.tv-screen-one {
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
