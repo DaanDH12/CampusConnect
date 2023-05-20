@@ -49,7 +49,7 @@ function unflipCards() {
     secondCard.classList.remove('flipped');
 
     resetBoard();
-  }, 1000);
+  }, 2000);
 }
 
 function resetBoard() {
@@ -75,4 +75,3 @@ imageContainer.addEventListener('click', () => {
   const nextImageSrc = `tv-img/${currentImageIndex}.png`;
   image.src = nextImageSrc;
 });
-
