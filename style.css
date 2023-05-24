@@ -56,13 +56,11 @@ body {
     width: 100%;
     height: auto;
     border-style: solid;
-    border-color: black;
     border-width: thick;
 }
 
 
 .board {
-	background-color: #F35279;
 	position: relative;
 	width: 100%;
 	display: flex;
