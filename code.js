@@ -2,7 +2,7 @@ const card = document.querySelectorAll('.memory-card');
 const imageContainer = document.querySelector('.tv-screen');
 const image = document.querySelector('.tv-screen-one');
 var memoryCards = document.querySelectorAll('.memory-card');
-const totalImages = 3;
+const totalImages = 6;
 let currentImageIndex = 1;
 
 
