@@ -55,12 +55,11 @@ body {
 .tv-screen-one {
     width: 100%;
     height: auto;
-    border-style: solid;
-    border-width: thick;
 }
 
 
 .board {
+	background-color: #5f5fe0;
 	position: relative;
 	width: 100%;
 	display: flex;
